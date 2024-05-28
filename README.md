@@ -1,5 +1,7 @@
 # Livewire Infinite Scroll
 
+仅 MySQL 数据库的无限滚动 Livewire 示例，使用了 MySQL 的 `FIELD()` 函数，暂时不支持 SQLite 和 PostgreSQL。
+
 [![Livewire Infinite Scroll](https://github.com/curder/livewire-infinite-scroll/assets/8327004/52407de2-2ef1-400d-9a53-3bbabaeac91f)](https://github.com/curder/livewire-infinite-scroll/assets/8327004/d8bc1d01-78c4-4e95-b887-1db126d69836)
 
 # 初始化

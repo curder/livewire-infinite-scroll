@@ -1,10 +1,7 @@
 <div class="space-y-2">
-    @foreach($posts as $post)
-        <div class="space-y-1">
-            <h2 class="text-xl font-bold">#{{ $post->id }} {{ $post->name }}</h2>
-            <p>{{ $post->description }}</p>
-        </div>
-    @endforeach
+    @for($chunk = 0; $chunk < $page; $chunk++)
+        <livewire:post :ids="$chunks[$chunk]" :key="$chunk"/>
+    @endfor
 
     @if($this->hasMorePages())
         <div x-intersect="$wire.loadMore"></div>
