@@ -1,5 +1,6 @@
 # Livewire Infinite Scroll
 
+[![Livewire Infinite Scroll](https://github.com/curder/livewire-infinite-scroll/assets/8327004/52407de2-2ef1-400d-9a53-3bbabaeac91f)](https://github.com/curder/livewire-infinite-scroll/assets/8327004/d8bc1d01-78c4-4e95-b887-1db126d69836)
 
 # 初始化
 
